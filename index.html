@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Links</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(180deg, #0a3d62, #3c6382);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            color: white;
+        }
+
+        .profile {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .profile img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+
+        .profile h1 {
+            margin: 15px 0 30px;
+            font-size: 24px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 80%;
+            max-width: 400px;
+        }
+
+        .link-button {
+            background: white;
+            color: #0a3d62;
+            padding: 15px;
+            border-radius: 12px;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        .link-button:hover {
+            background: #dff9fb;
+            transform: translateY(-3px);
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .social-icons a img {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile">
+        <!-- TROQUE o src abaixo pela URL da sua foto de perfil -->
+        <img src="D:\Usuários\Pedro Borges\Área de Trabalho\NOVO\istockphoto-1129473522-612x612.jpg" alt="Foto de Perfil">
+
+        <!-- TROQUE o texto abaixo pelo seu nome ou nome do projeto -->
+        <h1>Seu Nome Aqui</h1>
+    </div>
+
+    <div class="links">
+        <!-- BOTÃO 1: Troque href pelo link do seu produto e o texto pelo nome/descrição do produto -->
+        <a class="https://www.lipsum.com" href="URL-DO-PRODUTO-1" target="_blank">Descrição do Produto 1</a>
+
+        <!-- BOTÃO 2 -->
+        <a class="link-button" href="URL-DO-PRODUTO-2" target="_blank">Descrição do Produto 2</a>
+
+        <!-- BOTÃO 3 -->
+        <a class="link-button" href="URL-DO-PRODUTO-3" target="_blank">Descrição do Produto 3</a>
+
+        <!-- BOTÃO 4 -->
+        <a class="link-button" href="URL-DO-PRODUTO-4" target="_blank">Descrição do Produto 4</a>
+
+        <!-- Pode adicionar mais botões copiando e colando uma linha como acima -->
+    </div>
+
+    <div class="social-icons">
+        <!-- ÍCONES DAS REDES SOCIAIS -->
+        <!-- Troque href pelo seu link de rede social e src pelo ícone da rede -->
+        
+        <a href="LINK-DO-SEU-TWITTER" target="_blank">
+            <img src="URL-DO-ICONE-TWITTER" alt="Twitter">
+        </a>
+
+        <a href="LINK-DO-SEU-TIKTOK" target="_blank">
+            <img src="URL-DO-ICONE-TIKTOK" alt="TikTok">
+        </a>
+
+        <a href="LINK-DO-SEU-SPOTIFY" target="_blank">
+            <img src="URL-DO-ICONE-SPOTIFY" alt="Spotify">
+        </a>
+
+        <a href="LINK-DO-SEU-TWITCH" target="_blank">
+            <img src="URL-DO-ICONE-TWITCH" alt="Twitch">
+        </a>
+    </div>
+
+</body>
+</html>
